@@ -4,6 +4,19 @@
   column-gap: 2rem;
 }
 
+.subscribe_button {
+ background-color: #f34657  ;
+ color: white;
+ font-weight: 500;
+ 
+}
+
+.subscribe_button:hover {
+ background-color: #f4021a ;
+ transform: scale(10px);
+}
+
+
 @media only screen and (max-width: 992px) {
   .services__container {
     flex-direction: column;
